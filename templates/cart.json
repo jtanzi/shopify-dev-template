@@ -6,18 +6,14 @@
                 "subtotal": {
                     "type": "subtotal"
                 },
-                "update-cart": {
+                "update-button": {
                     "type": "update_button"
                 },
                 "checkout-button": {
                     "type": "checkout_button"
                 }
             },
-            "block_order": [
-                "subtotal",
-                "update_button",
-                "checkout_button"
-            ]
+            "block_order": ["subtotal","update-button","checkout-button"]
         }
     },
     "order": ["template"]
